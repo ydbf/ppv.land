@@ -1,0 +1,41 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NKluh7p.png" group-title="Football", EPL: West Ham vs Wolverhampton Wanderers - 08:00 PM (09/12/24)
+https://dc.vipstreams.in/skysportspremierleaguehd/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/B4K0HNH.png" group-title="NFL", NFL RedZone - 06:00 PM (08/12/24)
+https://fs.fscdn.fun/redzone/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GHmtLDg.jpeg" group-title="NFL", Jacksonville Jaguars at Tennessee Titans - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xSkVsuA.jpeg" group-title="NFL", New York Jets at Miami Dolphins - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RqSL0DR.jpeg" group-title="NFL", Atlanta Falcons at Minnesota Vikings - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/L0XsTU2.jpeg" group-title="NFL", New Orleans Saints at New York Giants - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1Skh9Ho.jpeg" group-title="NFL", Carolina Panthers at Philadelphia Eagles - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yWBkyR8.jpeg" group-title="NFL", Cleveland Browns at Pittsburgh Steelers - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl6/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/3kbkY3G.jpeg" group-title="NFL", Las Vegas Raiders at Tampa Bay Buccaneers - 06:00 PM (08/12/24)
+https://fs.anonup.net/nfl7/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iVy5AV5.jpeg" group-title="NFL", Seattle Seahawks at Arizona Cardinals - 09:05 PM (08/12/24)
+https://fs.anonup.net/nfl8/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/JTCppyE.jpeg" group-title="NFL", Buffalo Bills at Los Angeles Rams - 09:25 PM (08/12/24)
+https://fs.anonup.net/nfl9/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/9DVeObX.jpeg" group-title="NFL", Chicago Bears at San Francisco 49ers - 09:25 PM (08/12/24)
+https://fs.anonup.net/nfl10/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PxI7XWW.jpeg" group-title="NFL", Los Angeles Chargers at Kansas City Chiefs - 01:20 AM (09/12/24)
+https://fs.anonup.net/snf/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ZlfzNxR.jpeg" group-title="NFL", Cincinnati Bengals at Dallas Cowboys - 01:15 AM (10/12/24)
+https://fs.anonup.net/mnf/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kNipsMP.jpeg" group-title="Wrestling", WWE RAW - 01:00 AM (10/12/24)
+https://fs.fscdn.fun/usanetwork/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BqaaoRa.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
+https://fs.anonup.net/espn8/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/p3cQC0B.jpeg" group-title="24/7 Streams", LaLiga TV
+https://fs.fscdn.fun/laligatv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
+https://tv.nknews.org/tvhls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/gKwAGoy.png" group-title="24/7 Streams", Argyle TV
+https://fs.anonup.net/argyle/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
+https://fs.anonup.net/utahhockeyclub/index.m3u8
