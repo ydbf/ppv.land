@@ -1,100 +1,118 @@
 <?php
 
-// Step 1: Fetch and decode the data from ppv.land API to get the 4-digit IDs
-$url = "https://ppv.land/api/streams";
-$response = file_get_contents($url);
-$data = json_decode($response, true);
+define('API_BASE_URL', 'https://ppv.land/api/streams');
+define('FILE_EXTENSION', '-ppv.land.m3u');
 
-// Initialize an array to hold the 4-digit IDs
-$ids = [];
-
-// Loop through the 'streams' array to extract 4-digit ids
-foreach ($data['streams'] as $category) {
-    foreach ($category['streams'] as $stream) {
-        if (isset($stream['id']) && strlen((string)$stream['id']) === 4) {
-            // Collect 4-digit IDs
-            $ids[] = $stream['id'];
-        }
-    }
+function fetchApiData($url) {
+    $response = file_get_contents($url);
+    return $response ? json_decode($response, true) : null;
 }
 
-// Step 2: Create the links using the 4-digit IDs and scrape data from each link
-$linkInfo = [];
-foreach ($ids as $id) {
-    // Fetch the JSON data from the URL
-    $jsonData = file_get_contents("https://ppv.land/api/streams/$id");
-
-    // Check if data was retrieved
-    if ($jsonData === false) {
-        echo "Failed to fetch data from: https://ppv.land/api/streams/$id\n";
-        continue; // Skip this link and continue to the next one
+function getStreamData($id) {
+    $url = API_BASE_URL . "/$id";
+    $data = fetchApiData($url);
+    if (!$data) {
+        logError("Failed to fetch or decode data for stream ID: $id");
     }
-
-    // Decode the JSON data
-    $data = json_decode($jsonData, true);
-
-    // Check if the data is valid JSON
-    if ($data === null) {
-        echo "Invalid JSON data from: https://ppv.land/api/streams/$id\n";
-        continue; // Skip this link if the data is not valid JSON
-    }
-
-    // Append the data to the linkInfo array
-    $linkInfo[] = $data;
+    return $data;
 }
 
-// Step 3: Create an associative array to map each stream ID to its category
-$categoryMap = [];
-foreach ($data['streams'] as $streamGroup) {
-    foreach ($streamGroup['streams'] as $stream) {
-        $categoryMap[$stream['id']] = $streamGroup['category'];
-    }
+function logError($message) {
+    error_log($message . PHP_EOL, 3, 'errors.log');
 }
 
-// Set the default timezone to Australia/Sydney
-date_default_timezone_set('Australia/Sydney');
+function isValidEvent($startTimestamp, $category) {
+    $currentTime = time();
+    $timeDiff = $startTimestamp - $currentTime;
+    return ($category === "24/7 Streams" || ($timeDiff >= -14400 && $timeDiff <= 172800));
+}
 
-// Open the M3U file for writing
-$m3uFile = fopen('streams.m3u', 'w') or die('Error opening M3U file for writing.');
-
-// Write the M3U header
-fwrite($m3uFile, "#EXTM3U\n");
-
-// Define the User-Agent string
-$userAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15";
-
-// Define the origin and referrer
-$origin = "https://ppv.land";
-$referrer = "https://ppv.land";
-
-// Loop through each entry in the link_info and create M3U entries
-foreach ($linkInfo as $entry) {
-    $data = $entry['data'];
+function createM3UEntry($data, $category) {
     $name = $data['name'];
     $poster = $data['poster'];
     $m3u8Link = $data['m3u8'];
-    $id = $data['id'];
-
-    // Get the category for this stream based on its ID
-    $category = isset($categoryMap[$id]) ? $categoryMap[$id] : 'Uncategorized';
-
-    // Convert start timestamp to the desired format: "Time AM/PM (d/m/y)"
     $startTime = date('h:i A', $data['start_timestamp']) . ' (' . date('d/m/y', $data['start_timestamp']) . ')';
 
-    // Create and write the M3U entry with tvg-logo, group-title, and User-Agent (as EXTVLCOPT)
-    $m3uEntry = "#EXTINF:-1 tvg-logo=\"$poster\" group-title=\"$category\", $name - $startTime\n";
-    $m3uEntry .= "#EXTVLCOPT:http-user-agent=$userAgent\n";  // Correct User-Agent format using http-user-agent
-    $m3uEntry .= "#EXTVLCOPT:http-origin=$origin\n";  // Add the http-origin
-    $m3uEntry .= "#EXTVLCOPT:http-referrer=$referrer\n";  // Add the http-referrer
-    $m3uEntry .= "$m3u8Link\n";
+    // Define the VLC options to be included
+    $vlcOptions = [
+        '#EXTVLCOPT:http-referrer=https://ppv.land/',
+        '#EXTVLCOPT:http-origin=https://ppv.land/',
+        '#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
+    ];
 
-    // Write the M3U entry to the file
-    fwrite($m3uFile, $m3uEntry);
+    // Combine VLC options into a single string with line breaks
+    $vlcOptionsString = implode("\n", $vlcOptions) . "\n";
+
+    // Construct the M3U entry based on category
+    $infoLine = ($category === "24/7 Streams") 
+        ? "#EXTINF:-1 tvg-logo=\"$poster\" group-title=\"$category\", $name\n" 
+        : "#EXTINF:-1 tvg-logo=\"$poster\" group-title=\"$category\", $name - $startTime\n";
+
+    // Return the M3U entry with the VLC options inserted
+    return $infoLine . $vlcOptionsString . $m3u8Link . "\n";
 }
 
-// Close the M3U file
-fclose($m3uFile);
+function main() {
+    $data = fetchApiData(API_BASE_URL);
+    if (!$data || !isset($data['streams'])) {
+        logError("Failed to fetch or decode main API data.");
+        return;
+    }
 
-echo "M3U file created successfully as streams.m3u.\n";
+    $ids = [];
+    $categoryMap = [];
+    foreach ($data['streams'] as $categoryGroup) {
+        $category = $categoryGroup['category'];
+        foreach ($categoryGroup['streams'] as $stream) {
+            if (isset($stream['id']) && strlen((string)$stream['id']) === 4) {
+                $ids[] = $stream['id'];
+                $categoryMap[$stream['id']] = $category;
+            }
+        }
+    }
 
+    $linkInfo = [];
+    foreach ($ids as $id) {
+        $streamData = getStreamData($id);
+        if ($streamData) {
+            $linkInfo[] = $streamData;
+        }
+    }
+
+    $timezones = [
+        'Australia/Sydney',
+        'Iceland',
+        'America/New_York',
+        'America/Los_Angeles',
+        'America/Chicago',
+    ];
+
+    foreach ($timezones as $timezone) {
+        date_default_timezone_set($timezone);
+        $fileName = str_replace('/', '-', $timezone) . FILE_EXTENSION;
+        $m3uFile = fopen($fileName, 'w');
+        if (!$m3uFile) {
+            logError("Error opening file $fileName for writing.");
+            continue;
+        }
+
+        fwrite($m3uFile, "#EXTM3U\n");
+
+        foreach ($linkInfo as $entry) {
+            $data = $entry['data'];
+            $id = $data['id'];
+            $category = $categoryMap[$id] ?? 'Uncategorized';
+
+            if (isValidEvent($data['start_timestamp'], $category)) {
+                fwrite($m3uFile, createM3UEntry($data, $category));
+            }
+        }
+
+        fclose($m3uFile);
+
+        echo "M3U file created successfully as $fileName.\n";
+    }
+}
+
+main();
 ?>
