@@ -3,58 +3,48 @@
 define('API_BASE_URL', 'https://ppv.land/api/streams');
 define('FILE_EXTENSION', '-ppv.land.m3u');
 
+// Function to fetch data using cURL with improved error handling
 function fetchApiData($url) {
-    // Initialize cURL session
     $ch = curl_init();
 
     // Set cURL options
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
-    curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Timeout in seconds
+    curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Timeout after 30 seconds
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects (if any)
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; PHP script)'); // Add a user-agent to mimic a real browser
 
     // Execute the cURL request and get the response
     $response = curl_exec($ch);
 
-    // Check if there was an error
-    if(curl_errno($ch)) {
+    // Check for cURL errors
+    if (curl_errno($ch)) {
         logError("cURL Error: " . curl_error($ch));
         curl_close($ch);
         return null;
     }
 
-    // Close the cURL session
+    // Get the HTTP response code
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
-    // Return decoded JSON data if available, otherwise null
+    // Check if the response code indicates success (200 OK)
+    if ($httpCode != 200) {
+        logError("HTTP Error: $httpCode - Failed to fetch data from $url");
+        return null;
+    }
+
+    // Return the decoded JSON response
     return $response ? json_decode($response, true) : null;
 }
 
 function getStreamData($id) {
     $url = API_BASE_URL . "/$id";
-    
-    // Initialize cURL session
-    $ch = curl_init();
-    
-    // Set cURL options
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
-    curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Timeout in seconds
-    
-    // Execute the cURL request and get the response
-    $response = curl_exec($ch);
-    
-    // Check if there was an error
-    if(curl_errno($ch)) {
-        logError("cURL Error: " . curl_error($ch));
-        curl_close($ch);
-        return null;
+    $data = fetchApiData($url);
+    if (!$data) {
+        logError("Failed to fetch or decode data for stream ID: $id");
     }
-    
-    // Close the cURL session
-    curl_close($ch);
-    
-    // Return decoded JSON data if available, otherwise null
-    return $response ? json_decode($response, true) : null;
+    return $data;
 }
 
 function logError($message) {
@@ -64,7 +54,7 @@ function logError($message) {
 function isValidEvent($startTimestamp, $category) {
     $currentTime = time();
     $timeDiff = $startTimestamp - $currentTime;
-    return ($category === "24/7 Streams" || ($timeDiff >= -14400 && $timeDiff <= 172800));
+    return ($category === "24/7 Streams" || ($timeDiff <= 172800));
 }
 
 function createM3UEntry($data, $category) {
