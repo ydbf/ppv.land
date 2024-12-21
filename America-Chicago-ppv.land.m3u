@@ -1,27 +1,63 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LzZlkH3.png" group-title="College Football", #10 Indiana at #7 Notre Dame (CFP, First Round) - 07:00 PM (20/12/24)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uYlre3b.png" group-title="College Football", #11 SMU at #6 Penn State (CFP, First Round) - 11:00 AM (21/12/24)
+https://fs.anonup.net/tnt/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/n71Yv79.png" group-title="College Football", #12 Clemson at #5 Texas (CFP, First Round) - 03:00 PM (21/12/24)
+https://fs.anonup.net/tnt/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/tmWfyw0.png" group-title="College Football", #9 Tennessee at #8 Ohio State (CFP, First Round) - 07:00 PM (21/12/24)
 https://fs.anonup.net/abc/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/54WD2Bj.png" group-title="Combat Sports", Reignited: Oleksandr Usyk vs Tyson Fury 2 - 10:00 AM (21/12/24)
+https://director.shoeshopping.top/v1/director/VE1cWJsa3F6azh3dWRidHg5ZXBmejAyeWp6/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="Darts", Sky Sports Darts - 01:00 PM (15/12/24)
 https://fs.fscdn.fun/skysportsf1hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/bygXTMz.jpeg" group-title="Football", Carabao Cup: Tottenham vs Manchester United - 02:00 PM (19/12/24)
-https://dc.vipstreams.in/skysportsfootballhd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jZuzov4.jpeg" group-title="Football", UECL: Chelsea vs Shamrock Rovers - 02:00 PM (19/12/24)
-https://dc.vipstreams.in/tnt1/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Nd2i2wj.jpeg" group-title="NFL", Denver Broncos at Los Angeles Chargers - 07:15 PM (19/12/24)
-https://fs.anonup.net/tnf/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jCoGNxC.png" group-title="Wrestling", WWE Smackdown - 07:00 PM (20/12/24)
-https://fs.fscdn.fun/usanetwork/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/fQ88hPO.jpeg" group-title="Football", EPL: Brentford vs Nottingham Forest - 09:00 AM (21/12/24)
+https://fs.anonup.net/sky4nz/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Oz7hAxN.jpeg" group-title="Football", EPL: Ipswich vs Newcastle - 09:00 AM (21/12/24)
+https://fs.qwertyisaddictedtodxm.pw/event1-peacock/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/760HxIc.jpeg" group-title="Football", EPL: West Ham vs Brighton - 09:00 AM (21/12/24)
+https://fs.anonup.net/event2-peacock/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xZ7nAWB.jpeg" group-title="Football", EPL: Goal Rush - 09:00 AM (21/12/24)
+https://fs.qwertyisaddictedtodxm.pw/goalrush/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/MJnxGU0.jpeg" group-title="Football", EPL: Crystal Palace vs Arsenal - 11:30 AM (21/12/24)
+https://dc.vipstreams.in/skysportspremierleaguehd/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XYg6orO.jpeg" group-title="NFL", Houston Texans at Kansas City Chiefs - 12:00 PM (21/12/24)
+https://fs.anonup.net/nbc/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kOv14jy.jpeg" group-title="NFL", Pittsburgh Steelers at Baltimore Ravens - 03:30 PM (21/12/24)
+https://fs.anonup.net/fox/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6Nkd4h4.jpeg" group-title="NFL", New York Giants at Atlanta Falcons - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Ln8lUDI.jpeg" group-title="NFL", Detroit Lions at Chicago Bears - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5rq9p1T.jpeg" group-title="NFL", Cleveland Browns at Cincinnati Bengals - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ILgNHn8.jpeg" group-title="NFL", Tennessee Titans at Indianapolis Colts - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/g477DZf.jpeg" group-title="NFL", Los Angeles Rams at New York Jets - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aO1RrL8.jpeg" group-title="NFL", Philadelphia Eagles at Washington Commanders - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl6/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/npiw1j8.jpeg" group-title="NFL", Arizona Cardinals at Carolina Panthers - 12:00 PM (22/12/24)
+https://fs.anonup.net/nfl7/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/52xcUY6.jpeg" group-title="NFL", Minnesota Vikings at Seattle Seahawks - 03:05 PM (22/12/24)
+https://fs.anonup.net/nfl8/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5t98xEr.jpeg" group-title="NFL", New England Patriots at Buffalo Bills - 03:25 PM (22/12/24)
+https://fs.anonup.net/nfl9/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oFydTxu.jpeg" group-title="NFL", Jacksonville Jaguars at Las Vegas Raiders - 03:25 PM (22/12/24)
+https://fs.anonup.net/nfl10/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/XcypS2l.jpeg" group-title="NFL", San Francisco 49ers at Miami Dolphins - 03:25 PM (22/12/24)
+https://fs.anonup.net/nfl11/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BV7t3Ml.jpeg" group-title="NFL", Tampa Bay Buccaneers at Dallas Cowboys - 07:20 PM (22/12/24)
+https://fs.anonup.net/snf/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/m7cS8dt.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
 https://fs.anonup.net/espn8/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 Streams", ESPN
 https://fs.qwertyisaddictedtodxm.pw/espnus247/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
 https://tv.nknews.org/tvhls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
-https://fs.anonup.net/utahhockeyclub/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga TV
 https://fs.fscdn.fun/laligatv/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HgHdOxZ.jpeg" group-title="24/7 Streams", Argyle TV
 https://fs.anonup.net/argyle/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
+https://fs.anonup.net/utahhockeyclub/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga Overflow
 https://fs.anonup.net/laligaextra1/index.m3u8
