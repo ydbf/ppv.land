@@ -51,7 +51,17 @@ function logError($message) {
     error_log($message . PHP_EOL, 3, 'errors.log');
 }
 
-function isValidEvent($startTimestamp, $category) {
+function isValidEvent($startTimestamp, $category, $m3u8Link) {
+    // Skip events under "Fishtank" category
+    if ($category === "Fishtank") {
+        return false;
+    }
+
+    // Skip events where m3u8 does not start with "https://"
+    if (strpos($m3u8Link, "https://") !== 0) {
+        return false;
+    }
+
     $currentTime = time();
     $timeDiff = $startTimestamp - $currentTime;
     return ($category === "24/7 Streams" || ($timeDiff <= 172800));
@@ -122,8 +132,9 @@ function main() {
             $data = $entry['data'];
             $id = $data['id'];
             $category = $categoryMap[$id] ?? 'Uncategorized';
+            $m3u8Link = $data['m3u8'];
 
-            if (isValidEvent($data['start_timestamp'], $category)) {
+            if (isValidEvent($data['start_timestamp'], $category, $m3u8Link)) {
                 fwrite($m3uFile, createM3UEntry($data, $category));
             }
         }
