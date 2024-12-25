@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="Darts", Sky Sports Darts - 02:00 PM (15/12/24)
+https://fs.fscdn.fun/skysportsf1hd/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IKD1nmV.jpeg" group-title="NFL", Kansas City Chiefs at Pittsburgh Steelers - 01:00 PM (25/12/24)
+https://fs.anonup.net/nfl/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UA4KW9x.jpeg" group-title="NFL", Baltimore Ravens at Houston Texans - 04:30 PM (25/12/24)
+https://fs.anonup.net/nfl/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/TW243DG.png" group-title="Wrestling", WWE NXT - 08:00 PM (24/12/24)
+https://fs.fscdn.fun/thecw/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PpejPXY.jpeg" group-title="Wrestling", AEW Dynamite - 08:00 PM (25/12/24)
+https://fs.fscdn.fun/tbs/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/m7cS8dt.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
+https://fs.anonup.net/espn8/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 Streams", ESPN
+https://fs.qwertyisaddictedtodxm.pw/espnus247/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
+https://tv.nknews.org/tvhls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
+https://fs.anonup.net/utahhockeyclub/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/IzNByBK.jpeg" group-title="24/7 Streams", Argyle TV
+https://fs.anonup.net/argyle/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga TV
+https://fs.qwertyisaddictedtodxm.pw/laligatv/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga Overflow
+https://fs.anonup.net/laligaextra1/index.m3u8
