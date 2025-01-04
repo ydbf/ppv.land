@@ -1,25 +1,81 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="Darts", Sky Sports Darts - 07:00 PM (15/12/24)
-https://fs.fscdn.fun/skysportsf1hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IKD1nmV.jpeg" group-title="NFL", Kansas City Chiefs at Pittsburgh Steelers - 06:00 PM (25/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UA4KW9x.jpeg" group-title="NFL", Baltimore Ravens at Houston Texans - 09:30 PM (25/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TW243DG.png" group-title="Wrestling", WWE NXT - 01:00 AM (25/12/24)
-https://fs.fscdn.fun/thecw/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PpejPXY.jpeg" group-title="Wrestling", AEW Dynamite - 01:00 AM (26/12/24)
-https://fs.fscdn.fun/tbs/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7cS8dt.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
-https://fs.anonup.net/espn8/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-cle-dal.png" group-title="Basketball", Cavaliers at Mavericks - 01:30 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1MGUyMzNjNDJlNGZiLWE2ZTgtN2RjNC0yMDUwLTUyMjNhMzZi/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-cle-dal.png" group-title="Basketball", Cavaliers at Mavericks - 01:30 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1ZjNkNTRhZmM3N2FkLWI5ZTUtY2JmNC05ZDdmLWUyZjAxNzI5/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-sas-den.png" group-title="Basketball", Spurs at Nuggets - 02:00 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1OGZmMDg3YjA0YjVmLTgxNTgtM2I0NC01YjM3LWQ5ODM5NGZh/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-sas-den.png" group-title="Basketball", Spurs at Nuggets - 02:00 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1NmM0ZWQxMzcxZTcxLWE3NjQtNTRmMi02YTYwLWM2ZTExMGUz/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-mem-sac.png" group-title="Basketball", Grizzlies at Kings - 03:00 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1MGQyOTUwYjM0OWFjLTBjMWEtM2Q5NC0yMjk4LWY0ODJmMTVj/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-mem-sac.png" group-title="Basketball", Grizzlies at Kings - 03:00 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1MzZmYmEwNzE4NGZhLWYzMzctMjE4Yy05MTM3LWI3NzMwOTJh/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-atl-lal.png" group-title="Basketball", Hawks at Lakers - 03:30 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1MjMxN2RhNzM1YmY2LWUyODktMzBiNC0wY2EwLTIwOTI3MmIx/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/manage/2025/01/0103-atl-lal.png" group-title="Basketball", Hawks at Lakers - 03:30 AM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1YWM4NzEwZDMxZDYyLWU2NGUtMmUwNi0zM2I4LTlkYTk5ZmE2/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UVamkoW.jpeg" group-title="Football", EPL: Tottenham vs Newcastle - 12:30 PM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1MjcxYTczMjRjNDEyLTJkNTgtYjU5NC03NTA2LThiNjcxYzRk/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Hnqqzee.jpeg" group-title="Football", EPL: Bournemouth vs Everton - 03:00 PM (04/01/25)
+https://fs.fscdn.fun/epl1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DVRiPe4.jpeg" group-title="Football", EPL: Aston Villa vs Leicester - 03:00 PM (04/01/25)
+https://fs.anonup.net/epl2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/xcBYii9.jpeg" group-title="Football", EPL: Crystal Palace vs Chelsea - 03:00 PM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1OTVkYjI1ZmY1MWVjLTM4MWEtMmYxNC0xYzgzLTAxYTYyZTEx/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/yOUkMMf.jpeg" group-title="Football", EPL: Manchester City vs West Ham - 03:00 PM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1YzczMGYwY2Q3OGI3LTgwNzktZDM4NC01ZGZmLWNiOTA1NDFl/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qAFpXpM.jpeg" group-title="Football", EPL: Southampton vs Brentford - 03:00 PM (04/01/25)
+https://fs.qwertyisaddictedtodxm.pw/epl3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/u5dx484.jpeg" group-title="Football", EPL: Brighton vs Arsenal - 05:30 PM (04/01/25)
+https://director.shoeshopping.top/v1/director/VE1YjZiNTNkZGE1M2VkLTg5M2EtMmM3NC01NGI2LWMwNzNlYmQx/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Y21nZ6i.png" group-title="Football", Barbastro vs Barcelona - 06:00 PM (04/01/25)
+https://fs.anonup.net/daznca1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/lJKS3Qo.png" group-title="Football", PSG vs Monaco - 04:30 PM (05/01/25)
+https://fs.anonup.net/event1-dazn/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AzCqRxT.png" group-title="Ice Hockey", 2025 IIHF World Junior Championship: Sweden vs Finland (Semifinal #1) - 08:30 PM (04/01/25)
+https://fs.flowstreams.top/tsn4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AzCqRxT.png" group-title="Ice Hockey", 2025 IIHF World Junior Championship: Sweden vs Finland (Semifinal #1, Swedish Commentary) - 08:30 PM (04/01/25)
+https://fs.flowstreams.top/event1-svt/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/km2EP3s.png" group-title="Ice Hockey", 2025 IIHF World Junior Championship: USA vs Czechia (Semifinal #2) - 12:30 AM (05/01/25)
+https://fs.flowstreams.top/tsn4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RcA6v6o.jpeg" group-title="NFL", Cleveland Browns at Baltimore Ravens - 09:30 PM (04/01/25)
+https://fs.anonup.net/nfl1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/oIQEu7p.jpeg" group-title="NFL", Cincinnati Bengals at Pittsburgh Steelers - 01:00 AM (05/01/25)
+https://fs.anonup.net/nfl2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FqZiBi7.jpeg" group-title="NFL", Carolina Panthers at Atlanta Falcons - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/OOjSxgB.jpeg" group-title="NFL", Washington Commanders at Dallas Cowboys - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/DbAlSek.jpeg" group-title="NFL", Chicago Bears at Green Bay Packers - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/1DbKela.jpeg" group-title="NFL", Houston Texans at Tennessee Titans - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl4/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6ErVBwz.jpeg" group-title="NFL", Jacksonville Jaguars at Indianapolis Colts - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Ob0nY7T.jpeg" group-title="NFL", Buffalo Bills at New England Patriots - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl6/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/8mKnmJi.jpeg" group-title="NFL", New York Giants at Philadelphia Eagles - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl7/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mV6n7RN.jpeg" group-title="NFL", New Orleans Saints at Tampa Bay Buccaneers - 06:00 PM (05/01/25)
+https://fs.anonup.net/nfl9/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rHCAr3Z.jpeg" group-title="NFL", Kansas City Chiefs at Denver Broncos - 09:25 PM (05/01/25)
+https://fs.anonup.net/nfl9/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ABvavbX.jpeg" group-title="NFL", Los Angeles Chargers at Las Vegas Raiders - 09:25 PM (05/01/25)
+https://fs.anonup.net/nfl10/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mNYsi3f.jpeg" group-title="NFL", Seattle Seahawks at Los Angeles Rams - 09:25 PM (05/01/25)
+https://fs.anonup.net/nfl11/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/PvtjqDX.jpeg" group-title="NFL", Miami Dolphins at New York Jets - 09:25 PM (05/01/25)
+https://fs.anonup.net/nfl12/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/UaDzjsk.jpeg" group-title="NFL", San Francisco 49ers at Arizona Cardinals - 09:25 PM (05/01/25)
+https://fs.anonup.net/nfl13/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GC0Sn6B.jpeg" group-title="NFL", Minnesota Vikings at Detroit Lions - 01:20 AM (06/01/25)
+https://fs.anonup.net/snf/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="24/7 Streams", Sky Sports Darts
+https://fs.flowstreams.top/darts/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 Streams", ESPN
 https://fs.qwertyisaddictedtodxm.pw/espnus247/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
 https://tv.nknews.org/tvhls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
-https://fs.anonup.net/utahhockeyclub/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IzNByBK.jpeg" group-title="24/7 Streams", Argyle TV
-https://fs.anonup.net/argyle/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga TV
-https://fs.qwertyisaddictedtodxm.pw/laligatv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga Overflow
-https://fs.anonup.net/laligaextra1/index.m3u8
+https://fs.fscdn.fun/utahhockeyclub/index.m3u8
