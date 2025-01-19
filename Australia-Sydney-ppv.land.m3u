@@ -1,25 +1,29 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="Darts", Sky Sports Darts - 06:00 AM (16/12/24)
-https://fs.fscdn.fun/skysportsf1hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IKD1nmV.jpeg" group-title="NFL", Kansas City Chiefs at Pittsburgh Steelers - 05:00 AM (26/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UA4KW9x.jpeg" group-title="NFL", Baltimore Ravens at Houston Texans - 08:30 AM (26/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TW243DG.png" group-title="Wrestling", WWE NXT - 12:00 PM (25/12/24)
-https://fs.fscdn.fun/thecw/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PpejPXY.jpeg" group-title="Wrestling", AEW Dynamite - 12:00 PM (26/12/24)
-https://fs.fscdn.fun/tbs/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7cS8dt.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
-https://fs.anonup.net/espn8/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/sas-mia/1280x720.png" group-title="Basketball", Spurs at Heat - 07:00 AM (20/01/25)
+https://fs.anonup.net/heat/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/den-orl/1280x720.png" group-title="Basketball", Nuggets at Magic - 10:00 AM (20/01/25)
+https://fs.fscdn.fun/magic/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/phi-mil/1280x720.png" group-title="Basketball", 76ers at Bucks - 11:00 AM (20/01/25)
+https://fs.anonup.net/bucks/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/bkn-okc/1280x720.png" group-title="Basketball", Nets at Thunder - 11:00 AM (20/01/25)
+https://fs.fscdn.fun/thunder/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/lal-lac/1280x720.png" group-title="Basketball", Lakers at Clippers - 01:00 PM (20/01/25)
+https://fs.anonup.net/nbatv/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/chi-por/1280x720.png" group-title="Basketball", Bulls at Trail Blazers - 01:00 PM (20/01/25)
+https://fs.flowstreams.top/blazers/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.nba.com/davinci/images/team-matchups/nba/latest/ced/was-sac/1280x720.png" group-title="Basketball", Wizards at Kings - 01:00 PM (20/01/25)
+https://fs.qwertyisaddictedtodxm.pw/kings/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/wAYYfxD.png" group-title="NFL", Los Angeles Rams at Philadelphia Eagles - 07:00 AM (20/01/25)
+https://director.shoeshopping.top/v1/director/VE1Nzg4ZWUyOWQ4NDc3LTBhZmItMDA5NC01NjMzLWIxNjE5ZDMz/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/sY4IE2C.png" group-title="NFL", Baltimore Ravens at Buffalo Bills - 10:30 AM (20/01/25)
+https://director.shoeshopping.top/v1/director/VE1Nzg4ZWUyOWQ4NDc3LTBhZmItMDA5NC01NjMzLWIxNjE5ZDMz/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Pmgry2l.jpeg" group-title="Wrestling", TNA Genesis - 12:00 PM (20/01/25)
+https://fs.anonup.net/tnagenesis/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iH8D2KZ.png" group-title="Wrestling", WWE RAW - 12:00 PM (21/01/25)
+https://fs.fscdn.fun/wweraw/index.m3u8
+#EXTINF:-1 tvg-logo="https://p3-fs.flowstreams.top/sheeps1/preview.jpg" group-title="24/7 Streams", 24/7 sheep
+https://p3.flowstreams.top/sheeps1/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 Streams", ESPN
-https://fs.qwertyisaddictedtodxm.pw/espnus247/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
-https://tv.nknews.org/tvhls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
-https://fs.anonup.net/utahhockeyclub/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IzNByBK.jpeg" group-title="24/7 Streams", Argyle TV
-https://fs.anonup.net/argyle/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga TV
-https://fs.qwertyisaddictedtodxm.pw/laligatv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga Overflow
-https://fs.anonup.net/laligaextra1/index.m3u8
+https://fs.qwertyisaddictedtodxm.pw/espn/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/CnphStu.png" group-title="24/7 Streams", (North) Korean Central Television
+https://tv.nknews.org/tvdash/stream.mpd
