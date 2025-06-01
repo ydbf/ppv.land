@@ -1,25 +1,73 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="Darts", Sky Sports Darts - 06:00 AM (16/12/24)
-https://fs.fscdn.fun/skysportsf1hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IKD1nmV.jpeg" group-title="NFL", Kansas City Chiefs at Pittsburgh Steelers - 05:00 AM (26/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UA4KW9x.jpeg" group-title="NFL", Baltimore Ravens at Houston Texans - 08:30 AM (26/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TW243DG.png" group-title="Wrestling", WWE NXT - 12:00 PM (25/12/24)
-https://fs.fscdn.fun/thecw/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PpejPXY.jpeg" group-title="Wrestling", AEW Dynamite - 12:00 PM (26/12/24)
-https://fs.fscdn.fun/tbs/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7cS8dt.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
-https://fs.anonup.net/espn8/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 Streams", ESPN
-https://fs.qwertyisaddictedtodxm.pw/espnus247/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
-https://tv.nknews.org/tvhls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
-https://fs.anonup.net/utahhockeyclub/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IzNByBK.jpeg" group-title="24/7 Streams", Argyle TV
-https://fs.anonup.net/argyle/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga TV
-https://fs.qwertyisaddictedtodxm.pw/laligatv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga Overflow
-https://fs.anonup.net/laligaextra1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/61cAuHv.png" group-title="Combat Sports", UFC on ESPN: Blanchfield vs. Barber - 08:30 AM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1NzM5YWI2YWVjMWEyLTMwZDgtNjM5NC0yZTZkLTk3NWI5Nzhh/master.m3u8?md5=dHJ2bOCfISREQk2QEnGWhw&expires=1748761200&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/iKyJ43r.png" group-title="Combat Sports", Plant vs. Resendiz & Charlo vs. LaManna - 10:00 AM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1MmEzYTU0MjYyZTM1LTc2MGItZTZhNC1iZDlkLWEzNWQ2Mjcx/master.m3u8?md5=mJ4gzYiDQX913LxGS9DGAQ&expires=1748759400&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://open.http.mp.streamamg.com/p/3000668/sp/300066800/thumbnail/entry_id/0_yh87ac2f/width/640" group-title="Darts", PDC: 2025 European Darts Open Day Three - 09:00 PM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1N2Y2MDEzMDBlYmZiLWMxYjktOTIwNC0wMTkwLTIwZWQ0Njg0/master.m3u8?md5=QYi_4Rh_QeaW6HNuOyJF_g&expires=1748824140&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/6uX4nBz.png" group-title="Football", Club WC Play In: Los Angeles FC vs América - 12:30 PM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1MjFkODA5OWI4ZTVlLWY4YzgtYWYzNC1jNTc3LWNiOTBiMGYz/master.m3u8?md5=rGNdXE41aywhXSvlyKVJcg&expires=1748757600&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/U27ZUfv.png" group-title="MLB", Minnesota Twins vs. Seattle Mariners - 09:15 AM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1ODVmMjkyM2QzZTM1LTk2OGItM2U2NC1kNjJmLTk2ZTkzMmRh/master.m3u8?md5=XtI5Ihvsf23PWCyOLjJvSg&expires=1748745900&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SNncdYn.png" group-title="MLB", New York Yankees vs. Los Angeles Dodgers - 09:15 AM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1OWUzMmMwNDYzMDRlLWI4MTktNTdhNC1kYTU5LTcwMDc3MTky/master.m3u8?md5=XtI5Ihvsf23PWCyOLjJvSg&expires=1748745900&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/7vCZEBw.png" group-title="MLB", Pittsburgh Pirates vs. San Diego Padres - 11:40 AM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1OGRiM2QyY2Q3MzU5LWUyNWEtYjY3NC1hYWIwLWEzMDM1NDU5/master.m3u8?md5=0riSxDWe1SH90N8hobm9cg&expires=1748754600&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/5jltpZF.png" group-title="MLB", Washington Nationals vs. Arizona Diamondbacks - 12:10 PM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1YWVhYWY3YmY4OGUzLWM0NmItZWUzNC1hZGE1LTU2NDk5ZGIy/master.m3u8?md5=sXagzpqjafkliFfHikW2ig&expires=1748756400&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pYrYq5z.png" group-title="Motorsports", Pro Motocross: Hangtown - 06:00 AM (01/06/25)
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1NjQ4MTZhY2Q4NDZlLTg2N2ItZTZhNC1kZGY3LTk5NzU0NTJh/master.m3u8?md5=YQL2Cy6UOGhHNhBFAKKWfA&expires=1748745000&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://thumbs.poocloud.in/southpark/preview.jpg" group-title="24/7 Streams", 24/7 South Park
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8?md5=K94TL2FyRftMz_Bov5dkcw&expires=1748784088&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://thumbs.poocloud.in/familyguy/preview.jpg" group-title="24/7 Streams", 24/7 Family Guy
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1YTA5ZTU3MjFhNTI0LWRkZTktZTRlNC1mMzU4LTQwMWI0YjJk/master.m3u8?md5=K94TL2FyRftMz_Bov5dkcw&expires=1748784088&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://thumbs.poocloud.in/thesimpsons/preview.jpg" group-title="24/7 Streams", 24/7 The Simpsons
+#EXTVLCOPT:http-user-agent=VLC/3.0.18 LibVLC/3.0.21
+#EXTVLCOPT:http-referrer=https://ppv.wtf/
+#EXTVLCOPT:http-origin=https://ppv.wtf/
+https://hipaf6u2j3pwygg.nice-flower.store/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOThlLWY2MmU4NGI4/master.m3u8?md5=qlMNOyRaGzcxU1HpoKMlBA&expires=1748784089&net=MjAuMTA5LjYxLjEzNA%3D%3D
+
