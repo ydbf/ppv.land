@@ -1,7 +1,13 @@
 <?php
 
-define('API_BASE_URL', 'https://ppv.land/api/streams');
+define('API_BASE_URL', 'https://ppv.wtf/api/streams');
 define('FILE_EXTENSION', '-ppv.land.m3u');
+
+// Fixed user-agent to be used across the script
+define('USER_AGENT', 'VLC/3.0.18 LibVLC/3.0.21');
+
+// List of stream IDs to skip (you can add or remove from this list)
+$streamIdsToSkip = ['3677', '3678', '3663', '3716'];
 
 // Function to fetch data using cURL with improved error handling
 function fetchApiData($url) {
@@ -12,7 +18,7 @@ function fetchApiData($url) {
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
     curl_setopt($ch, CURLOPT_TIMEOUT, 30); // Timeout after 30 seconds
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects (if any)
-    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; PHP script)'); // Add a user-agent to mimic a real browser
+    curl_setopt($ch, CURLOPT_USERAGENT, USER_AGENT); // Use the fixed user agent
 
     // Execute the cURL request and get the response
     $response = curl_exec($ch);
@@ -78,8 +84,15 @@ function createM3UEntry($data, $category) {
         ? "#EXTINF:-1 tvg-logo=\"$poster\" group-title=\"$category\", $name\n" 
         : "#EXTINF:-1 tvg-logo=\"$poster\" group-title=\"$category\", $name - $startTime\n";
 
-    // Return the M3U entry without VLC options
-    return $infoLine . $m3u8Link . "\n";
+    // Add the EXTVLCOPT line with the user-agent **below** the EXTINF line
+    $extVlcOptLine = '#EXTVLCOPT:http-user-agent=' . USER_AGENT . "\n";
+
+    // Add additional EXTVLCOPT lines for referrer and origin
+    $extVlcOptReferrerLine = '#EXTVLCOPT:http-referrer=https://ppv.wtf/' . "\n";
+    $extVlcOptOriginLine = '#EXTVLCOPT:http-origin=https://ppv.wtf/' . "\n";
+
+    // Return the M3U entry with the user-agent, referrer, and origin lines
+    return $infoLine . $extVlcOptLine . $extVlcOptReferrerLine . $extVlcOptOriginLine . $m3u8Link . "\n\n"; // Added a blank line after the entry
 }
 
 function main() {
@@ -89,32 +102,29 @@ function main() {
         return;
     }
 
-    $ids = [];
     $categoryMap = [];
+    $linkInfo = [];
+
+    // Loop through the streams and process all except the ones in $streamIdsToSkip
     foreach ($data['streams'] as $categoryGroup) {
         $category = $categoryGroup['category'];
         foreach ($categoryGroup['streams'] as $stream) {
-            if (isset($stream['id']) && strlen((string)$stream['id']) === 4) {
-                $ids[] = $stream['id'];
-                $categoryMap[$stream['id']] = $category;
+            $streamId = $stream['id'];
+            // Skip this stream if it's in the $streamIdsToSkip list
+            if (in_array($streamId, $GLOBALS['streamIdsToSkip'])) {
+                continue;  // Skip this iteration
             }
-        }
-    }
 
-    $linkInfo = [];
-    foreach ($ids as $id) {
-        $streamData = getStreamData($id);
-        if ($streamData) {
-            $linkInfo[] = $streamData;
+            $categoryMap[$streamId] = $category;
+            $streamData = getStreamData($streamId);
+            if ($streamData) {
+                $linkInfo[] = $streamData;
+            }
         }
     }
 
     $timezones = [
         'Australia/Sydney',
-        'Iceland',
-        'America/New_York',
-        'America/Los_Angeles',
-        'America/Chicago',
     ];
 
     foreach ($timezones as $timezone) {
