@@ -1,25 +1,73 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r1nsrph.jpeg" group-title="Darts", Sky Sports Darts - 01:00 PM (15/12/24)
-https://fs.fscdn.fun/skysportsf1hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IKD1nmV.jpeg" group-title="NFL", Kansas City Chiefs at Pittsburgh Steelers - 12:00 PM (25/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/UA4KW9x.jpeg" group-title="NFL", Baltimore Ravens at Houston Texans - 03:30 PM (25/12/24)
-https://fs.anonup.net/nfl/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/TW243DG.png" group-title="Wrestling", WWE NXT - 07:00 PM (24/12/24)
-https://fs.fscdn.fun/thecw/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/PpejPXY.jpeg" group-title="Wrestling", AEW Dynamite - 07:00 PM (25/12/24)
-https://fs.fscdn.fun/tbs/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/m7cS8dt.jpeg" group-title="24/7 Streams", ESPN8 "The Ocho"
-https://fs.anonup.net/espn8/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kJ6395b.jpeg" group-title="24/7 Streams", ESPN
-https://fs.qwertyisaddictedtodxm.pw/espnus247/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/4GuxRuF.png" group-title="24/7 Streams", (North) Korean Central Television
-https://tv.nknews.org/tvhls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/SzF1kyy.png" group-title="24/7 Streams", Utah Hockey Club
-https://fs.anonup.net/utahhockeyclub/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/IzNByBK.jpeg" group-title="24/7 Streams", Argyle TV
-https://fs.anonup.net/argyle/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga TV
-https://fs.qwertyisaddictedtodxm.pw/laligatv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Mn2dI6S.jpeg" group-title="24/7 Streams", LaLiga Overflow
-https://fs.anonup.net/laligaextra1/index.m3u8
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/mx6ad2y.png@jpg" group-title="Basketball", Florida Gators vs. Auburn Tigers - 05:09 PM (05/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1YWE2Yzk3NWYxYmZiLWQ1MmEtMTEyNC1jN2NlLTVkNzRiNzc5/master.m3u8?md5=Qx__YoCu1Y-MgXoKxHsG5w&expires=1743899400&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://open.http.mp.streamamg.com/p/3000668/sp/300066800/thumbnail/entry_id/0_do2btydu/width/640@jpg" group-title="Darts", 2025 International Darts Open Day Two - 06:00 AM (05/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1YTI2YmUzNTdkYzEzLTE4N2ItMjAwNC03MzJhLTdjMmJmYjkz/master.m3u8?md5=kUgfYWKheG1SbbeYyBTOew&expires=1743897540&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/2RyUqnm.png@jpg" group-title="MLB", Toronto Blue Jays vs. New York Mets - 02:10 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1NTgwYWU4MzQ5OGRjLTEzYzgtMzBmNC0zY2IyLTdhM2ZlY2Uy/master.m3u8?md5=Iir_iy2GCbg7CpHdLRuldA&expires=1743804600&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/ypVGH6y.png@jpg" group-title="MLB", Arizona Diamondbacks vs. Washington Nationals - 05:45 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1NDFhNjk4YjE5YzA3LTgyMmEtYmVjNC04N2RlLTIyYWI2MDlm/master.m3u8?md5=w_gfa71rkZxy7cQIJGvUGw&expires=1743817500&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/koKMy2R.png@jpg" group-title="MLB", Los Angeles Dodgers vs. Philadelphia Phillies - 05:45 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1NzAyZDA2OTVjOTc2LTgwNTktN2U1NC04Njg3LTY2YjkzYWIw/master.m3u8?md5=w_gfa71rkZxy7cQIJGvUGw&expires=1743817500&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/mok1JXc.png@jpg" group-title="MLB", Miami Marlins vs. Atlanta Braves - 06:15 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1YWMxN2M4YWMzNTVjLWY0NjgtMTIwNC00MmY5LWZjMzJhNGU4/master.m3u8?md5=YSir-QUoH_22YHAaLUKACQ&expires=1743819300&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/03jqH7x.png@jpg" group-title="MLB", Tampa Bay Rays vs. Texas Rangers - 07:05 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1YTUxZDg4MGIwYjVhLWNjZDktY2EwNC01ODA5LTZkOTViMDE5/master.m3u8?md5=3ytBws6xIXyi0og9Y-9N1Q&expires=1743822300&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/wFgNUdw.png@jpg" group-title="MLB", Cincinnati Reds vs. Milwaukee Brewers - 07:10 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1MjU5MGQ0MTJkM2FkLTJhYTgtNDVkNC1iNGEwLTgyOTZhMDJj/master.m3u8?md5=jsET5xvQ-iqIomxTACNmTA&expires=1743822600&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/0Zzn3wD.png@jpg" group-title="Motorsports", F1: Japanese Grand Prix (Practice 3) - 09:30 PM (04/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1ZGFmZjU1ZjAxMmM5LTFjYTgtOTM0NC1lOTY2LTE3NDVjNzgy/master.m3u8?md5=6drnHSDyh8G8koIycbm8_Q&expires=1743825600&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://i.imgur.com/0Zzn3wD.png@jpg" group-title="Motorsports", F1: Japanese Grand Prix - 12:00 AM (06/04/25)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1ZGFmZjU1ZjAxMmM5LTFjYTgtOTM0NC1lOTY2LTE3NDVjNzgy/master.m3u8?md5=EQfd6q_uTV1ih95jTeZnpw&expires=1743924600&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://waw01-1gbe.fscdn.fun/southpark/preview.jpg@jpg" group-title="24/7 Streams", 24/7 South Park
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1ZGEyNDNkZWMyNzFjLWU2OWItNzFlNC00NWU5LTUyODY0MWIz/master.m3u8?md5=oCMSHt7Q6H2nkDjioAbVwA&expires=1737196080&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
+#EXTINF:-1 tvg-logo="https://mc-sl2jmurch6.b-cdn.net/thumbnail/plain/https://waw01-1gbe.fscdn.fun/thesimpsons/preview.jpg@jpg" group-title="24/7 Streams", 24/7 The Simpsons
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://ppv.land/
+#EXTVLCOPT:http-origin=https://ppv.land/
+https://director.taihotel.asia/v3/director/VE1MGQzNzI5MTE0YjQwLTVmYmEtYmE3NC1kOThlLWY2MmU4NGI4/master.m3u8?md5=oCMSHt7Q6H2nkDjioAbVwA&expires=1737196080&net=MjAuNTEuMTU5LjE0OA%3D%3D
+
